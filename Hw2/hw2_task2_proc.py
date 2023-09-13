@@ -34,6 +34,7 @@ student_data = [
 {'name': 'David', 'score': 95},
 ]
 
+print(f"Средний балл: {calculate_class_average(student_data)}")
 print(f"Best students: {show_best_students(student_data)}")
 
 

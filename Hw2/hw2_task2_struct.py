@@ -28,4 +28,6 @@ for student in student_data:
     if int(student['score']) > average:
         best_students.append(student['name'])
         
+
+print(f"Средний балл: {average}")
 print(f"Best students: {best_students}")
